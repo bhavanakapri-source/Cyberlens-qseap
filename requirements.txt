@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic[email]
+python-multipart
+pwdlib[argon2]
+PyJWT
+qdrant-client
+sentence-transformers
+torch
+google-genai
+openpyxl
+python-dotenv
+psycopg[binary]

@@ -1,0 +1,68 @@
+# =========================
+# ENVIRONMENT / SECRETS
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# PYTHON VIRTUAL ENVIRONMENTS
+# =========================
+.venv/
+.embedding_venv/
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# LOCAL QDRANT DATABASE
+# =========================
+qdrant/
+
+# =========================
+# EMBEDDINGS
+# =========================
+*.npy
+*.npz
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PYTEST
+# =========================
+.pytest_cache/
+
+# =========================
+# NODE / FRONTEND
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# LOCAL DATASETS / XML
+# =========================
+data/cleaned/
+data/embedding_ready/
+
+xml-to-csv/input/
+xml-to-csv/output/

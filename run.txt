@@ -1,0 +1,16 @@
+source .venv/Scripts/activate
+
+##backend 
+source .embedding_venv/Scripts/activate
+uvicorn api.main:app --reload
+
+
+no env needed below 
+cd frontend 
+npm run dev 
+
+##git commands 
+git add .
+git commit -m "Updated code"
+git push
+git push hf main
